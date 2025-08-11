@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Library</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <div class="sidebar">
+            <div class="form-container">
+                <form class="book-input">
+                    <div>
+                        <label for="title">Title:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="title">
+                    </div>
+
+                    <div>
+                        <label for="author">Author:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="author">
+                    </div>
+
+                    <div>
+                        <label for="pages">Pages:</label>
+                    </div>
+                    <div>
+                        <input type="number" id="pages">
+                    </div>
+                    <div>
+                        <label for="read-status">Read Status:</label>
+                    </div>
+                    <div>
+                        <select name="read-status" id="read-status">
+                            <option value="not-read">Not Read</option>
+                            <option value="currently-reading">Currently Reading</option>
+                            <option value="read">Read</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="library">
+
+        </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
